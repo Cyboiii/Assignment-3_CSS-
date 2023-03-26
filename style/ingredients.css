@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url(./reset.css);
+@font-face {
+    font-family: 'Brush Script';
+    src: url('path/to/brushscript.ttf') format('truetype');
+  }
+/* *{
+    outline: 1px #ccc dashed;
+} */
+body{
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    /*background-color: rgb(181, 137, 211);*/
+    border: 10pt ;
+}
+
+.background { 
+    background-color: rgb(181, 137, 211);
+}
+
+#container{
+    background-color: #471e7c;
+    display: flex;
+}
+.responsive{
+    width: 35%;
+    height: auto;
+}
+#main-nav{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+}
+#main-nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main-nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Brush Script', cursive;
+    transition: 0.3s;
+    padding: 0.8em;
+    color: #CBB386;
+}
+
+#main-nav ul li a:hover{
+    background-color: #CBB386;
+    color: #694233;
+    transition: 0.3s;
+}
+header h1{
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: #CBB386;
+    font-family: 'Delicious Handrawn', cursive;
+    /* margin-bottom: 10px; */
+}
+header{
+    border-bottom: black solid;
+
+}
+header h1 span{
+    color: crimson;
+}
+
+h2{
+    margin-top: 20px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: 900;
+    color: crimson;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 5pt; */
+    font-size: 20px;
+    /* border-bottom: black solid 1px; */
+    margin-bottom: 15px;
+}
+section{
+    height: 20em;
+}
+main ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10pt;
+    font-size: 15px;
+    /* list-style-type: disc; */
+    /* padding: 20px; */
+}
+main ul li{
+    padding: 10px;
+}
+main ul li:nth-child(even){
+    line-height: 25px;
+    border-left: #471e7c 4px solid;
+    border-bottom: #471e7c 4px solid;
+}
+main ul li:nth-child(odd){
+    line-height: 25px;
+    border-left: crimson 5px solid;
+    border-bottom: crimson 5px solid;
+}
+#ingredients-list{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* width: 2em; */
+    border-top: black solid;
+    /* width: max-content; */
+}
